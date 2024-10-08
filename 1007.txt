@@ -1,0 +1,18 @@
+profile
+   1page===index(intro)
+   2page===profile(About+skill(ability)
+   3page===portfolio(sites--index page)소개---sticky
+   4page===portfolio(project's)소개---가로방향 이동 스크롤
+   5page===contact(phone, email)
+---패럴랙스 스크롤링 / 스크롤 트리거 애니메이션(gsap) / sticky
+    cursor tracking / scroll snapping / 텍스트마스크 / filter효과
+
+npx create-react-app.
+npm install react-router-dom
+npm install sass
+npm install gsap
+npm install @studio-freight/lenis
+
+public---index.html
+<meta name="description" content="설명글" />
+<meta name="keyword" content="검색어1,검색어2" />
